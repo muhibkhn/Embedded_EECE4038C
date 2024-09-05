@@ -1,0 +1,79 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Sun Nov 19 17:15:07 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 PwrOnRst       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                  IntVect       code   0x000007    program   0x0000ac
+                  UsrCode       code   0x00005d    program   0x00008c
+.config_2007_BUILD/DEFAULT/PRODUCTION/LAB_07.       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/LAB_07.       code   0x002008    program   0x000002
+                     Vars      udata   0x000020       data   0x000008
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000007    0x0000a2      
+                            0x002007    0x002008      
+            161 out of 8455 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             DeBounceLoop   0x00009e    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                 Debounce   0x00009c    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                     Init   0x00005d    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                     Main   0x000086    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+              SW1_Pressed   0x00008f    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                 addition   0x00003f    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+               firstPress   0x000010    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+              fourthPress   0x000053    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+             initDebounce   0x000084    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+            inputOverflow   0x000098    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+              secondPress   0x00001b    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+              subtraction   0x00004a    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+               thirdPress   0x000026    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                   Count1   0x000020       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                   Count2   0x000021       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                currInput   0x000022       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                 interNum   0x000027       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                     num1   0x000023       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                     num2   0x000024       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                     oper   0x000025       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                   result   0x000026       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               firstPress   0x000010    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+              secondPress   0x00001b    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+               thirdPress   0x000026    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                 addition   0x00003f    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+              subtraction   0x00004a    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+              fourthPress   0x000053    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                     Init   0x00005d    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+             initDebounce   0x000084    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                     Main   0x000086    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+              SW1_Pressed   0x00008f    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+            inputOverflow   0x000098    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                 Debounce   0x00009c    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+             DeBounceLoop   0x00009e    program     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                   Count1   0x000020       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                   Count2   0x000021       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                currInput   0x000022       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                     num1   0x000023       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                     num2   0x000024       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                     oper   0x000025       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                   result   0x000026       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+                 interNum   0x000027       data     static C:\Users\NSF-WORK\Desktop\fall 2023\embedded system\Embedded_Systems_PIC-\Lab_07.X\Lab_07.asm
+
+

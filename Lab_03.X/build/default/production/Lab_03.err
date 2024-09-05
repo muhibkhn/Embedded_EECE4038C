@@ -1,0 +1,12 @@
+Warning[205] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 20 : Found directive in column 1. (Cblock)
+Message[313] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 20 : CBLOCK constants will start with a value of 0.
+Warning[205] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 23 : Found directive in column 1. (ENDC)
+Warning[205] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 26 : Found directive in column 1. (banksel)
+Warning[203] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 27 : Found opcode in column 1. (movlw)
+Warning[203] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 28 : Found opcode in column 1. (movwf)
+Message[302] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 28 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 33 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 40 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 42 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 46 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[205] C:\USERS\NSF-WORK\DESKTOP\FALL 2023\EMBEDDED SYSTEM\LAB_03.X\LAB_03.ASM 104 : Found directive in column 1. (end)
